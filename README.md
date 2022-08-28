@@ -32,19 +32,19 @@ Przykładowe zapytanie  /newses/1
 Przykładowe zapytanie:
 {
     "id":"3",
-"author":	"Tomasz Kita 5",
-"content": "Trzeci artykuł, To jest trzeci artykuł pisany przeze mnie",
-"date": "1994-09-01",
-"nameOfMagazine": "Abstrakcja magazyn"
+    "author":	"Tomasz Kita 5",
+    "content": "Trzeci artykuł, To jest trzeci artykuł pisany przeze mnie",
+    "date": "1994-09-01",
+    "nameOfMagazine": "Abstrakcja magazyn"
 }
 
 4. Aktualizacji treści pól istniejącego artykuły poprzez wysłanie zapytania PUT pod adres /newses/{id} gdzie id, to id dodanego artykułu przykład
 {
     "id":"3",
-"author":	"Tomasz Kita zmieniony",
-"content": "Trzeci artykuł, To jest trzeci artykuł pisany przeze mnie",
-"date": "1999-09-01",
-"nameOfMagazine": "Abstrakcja magazyn"
+    "author":	"Tomasz Kita zmieniony",
+    "content": "Trzeci artykuł, To jest trzeci artykuł pisany przeze mnie",
+    "date": "1999-09-01",
+    "nameOfMagazine": "Abstrakcja magazyn"
 }
 5. Skasowanie artykułu poprzez wysłanie zapytania DELETE:
 /newses/{id}
